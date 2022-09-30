@@ -7,13 +7,13 @@ entier taille;  //déclaration variable
 saisir la valeur de taille;
 
 création du tableau participant[taille];
+Création du tableau nombre[] ;
 
 for(entier i=0;i<taille;i++){   //boucle
 
 	entier x=0;
-	obtenir un nom et en faire une variable;
-	affecter la variable au participant[x];
-	affecter un entier à la variable;
+	obtenir un nom et l'affecter la variable à participant[x]; 
+	obtenir et affecter un entier à nombre[x] ;
 	réinitialiser la zone de texte;
 	x++;
 	}
