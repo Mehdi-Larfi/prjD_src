@@ -1,0 +1,29 @@
+programme tirage au sort
+
+DEBUT
+
+entier taille;  //déclaration variable
+
+saisir la valeur de taille;
+
+création du tableau participant[taille];
+
+for(entier i=0;i<taille;i++){   //boucle
+
+	entier x=0;
+	obtenir un nom et en faire une variable;
+	affecter la variable au participant[x];
+	affecter un entier à la variable;
+	réinitialiser la zone de texte;
+	x++;
+	}
+	
+choisir une variable au hazard dans participant;
+
+afficher Bravo 'participant[taille]' à gagné !!!;
+
+enregister la variable dans une base de données;
+
+réinitialiser les variable;
+
+FIN

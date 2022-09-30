@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Project Showcase</title>
+		<script src="documents/prjD.js"></script>
+		<link rel="stylesheet" href="prjD.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
+		<meta name="description" content="Bienvenue sur cette page web permettant de participer à un mini-jeu de tirages aux sorts.">
+		<meta name="author" content="Mehdi LARFI">
+	</head>
+	<body>
+		<div class="grid-container">
+		<div class="header">
+			<img src="images/dices-g5614dd5a9_1920.jpg" alt="dices">
+			<h1>Tirage au sort !</h1>
+		</div>
+
+		
+		<div class="left"></div>
+		<div class="middle">
+			<table border="0">
+			<tr>
+			<th>
+		
+
+			<p>Pour commencer, entrez le nombre de participants(max. 30).</p><br>
+			
+		<form id="tirageausort">
+			<fieldset>
+				<label for="taille">Nombre de participants:</label><br>
+				<input type="text" id="taille" name="taille">
+				<button type="button" id="add_taille" onclick="returnValue()">Enregistrer</button>
+			</fieldset>
+			<fieldset>
+				<p>Ensuite vous pouvez entrer le nom des participants et le nombre qu'ils ont choisis.</p><br>
+				<label for="nom">Nom du participant:</label><br>
+				<input type="text" id="nom" name="nom"><br><br>
+				<label for="nombre">Nombre choisi:</label><br>
+				<input type="text" id="nombre" name="nombre">
+				<button type="button" id="add_participant" onclick="returnParticipants()">Confirmer</button>
+			</fieldset>
+				<input type="button" value="Recommencer" onclick="recommencer()">
+			</form>
+			<p id="nbparticipant"></p>
+			<p id="resultat"></p>
+			
+			</th>
+			</tr>
+			</table>
+			</div>
+			<div class="right"></div>
+			
+		
+		<div class="footer">
+			<p>Bienvenue sur cette page web permettant de participer à un mini-jeu de tirages aux sorts.</p>
+		</div>	
+		</div>
+	</body>
+</html>
