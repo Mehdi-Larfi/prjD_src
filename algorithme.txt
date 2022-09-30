@@ -7,7 +7,7 @@ entier taille;  //déclaration variable
 saisir la valeur de taille;
 
 création du tableau participant[taille];
-Création du tableau nombre[] ;
+Création du tableau nombre[taille] ;
 
 for(entier i=0;i<taille;i++){   //boucle
 
